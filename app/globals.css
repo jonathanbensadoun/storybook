@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-start: #ffe5f1;
+  --background-end: #e0f4ff;
+  --primary-color: #ff6b6b;
+  --secondary-color: #4ecdc4;
+}
+
+body {
+  font-family: "Comic Neue", cursive;
+  background: linear-gradient(
+    135deg,
+    var(--background-start),
+    var(--background-end)
+  );
+  min-height: 100vh;
+}
+
+.story-card {
+  border: 8px solid #12a76e;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.choice-button {
+  background: #06291a;
+  border-radius: 16px;
+  padding: 16px 24px;
+  font-size: 1.2rem;
+  color: white;
+  transition: all 0.3s ease;
+  border: 4px solid #12a76e;
+}
+
+.choice-button:hover {
+  transform: scale(1.02);
+  background: #12a76e;
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+}
+
+.page-title {
+  color: #12a76e;
+  text-shadow: 2px 2px 0 #06291a;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.story-text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #444;
+}
