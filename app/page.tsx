@@ -22,11 +22,11 @@ export default function Home() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="flex items-center justify-center gap-4 mb-6">
+          {/* <div className="flex items-center justify-center gap-4 mb-6">
             <Stars className="w-12 h-12 text-[#FFD93D]" />
             <BookOpen className="w-16 h-16 text-primary-color" />
             <Wand2 className="w-12 h-12 text-[#12a76e]" />
-          </div>
+          </div> */}
           <h1 className="page-title mb-4">La Forêt Magique</h1>
           <p className="text-2xl text-[#12a76e]">
             Une aventure extraordinaire où TU es le héros !
