@@ -360,7 +360,7 @@ export const dogStoryNodes: Record<string, StoryNode> = {
     isEnding: true
   },
   pont: {
-    id: 'pont',
+    id: 'pont_dog',
     content: "Sur le pont, tu rencontres une sirène qui joue de la musique, un poisson volant qui fait des tours de magie, et une porte mystérieuse sous l'eau.",
     choices: [
       {
